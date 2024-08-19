@@ -1,8 +1,20 @@
 * convert-layout
-*** _Your Name <your.name@example.com>_
+Changes the kind of layout used by a group.
 
-This is a project to do ... something.
+** Author
+Mark W. Naylor <mark.naylor.1701@gmail.com>
+
+** Description
+This only has the appearance of changing the layout. Actually, a new group is
+created, any windows are moved to the new group, and the old group is deleted.
+The new group will have the same name and number as the old group.
+
+Creating this module had these inspirations:
+  1. Questions in #stumpwm irc about changing layout types.
+  2. Desire to recreate some of the behavior I used to get with xmonad.
+
+Although this system can be used on its own, it is also designed to support the
+planned xmonad-layout.
 
 ** License
-
-Specify license here
+BSD 3-Clause License
