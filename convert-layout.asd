@@ -1,10 +1,10 @@
 ;;;; convert-layout.asd
 
 (asdf:defsystem #:convert-layout
-  :description "Describe convert-layout here"
-  :author "Your Name <your.name@example.com>"
-  :license  "Specify license here"
-  :version "0.0.1"
+  :description "This system will change the layout manager of a group."
+  :author "Mark W. Naylor <mark.naylor.1701@gmail.com>"
+  :license  "BSD 3-Clause License"
+  :Version "0.5."
   :serial t
   :depends-on (#:stumpwm)
   :components ((:file "package")
