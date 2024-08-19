@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
 (defpackage #:convert-layout
-  (:use #:cl))
+  (:use #:cl #:stumpwm))
